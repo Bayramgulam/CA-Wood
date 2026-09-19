@@ -14,7 +14,7 @@ Statik export üçün hazırlanmış Next.js kataloq və WhatsApp lead səhifəs
 
 ## Foto çəkilişi siyahısı
 
-Hazırda `assets/photos/` yoxdur; buna görə bütün məhsul və Instagram sahələri `FOTO TODO` kimi işarələnib. Hər məhsul üçün neytral fon üzərində 3/4 bucaqdan bir foto və ağac teksturasının bir makro detalı çəkin. Əlavə olaraq: servis arabası interyerdə, servis lövhəsi süfrədə, ümumi mağaza/kolleksiya görünüşü. Fotoları `assets/photos/` qovluğuna əlavə edib `content/products.ts`-də yolunu yazın.
+`public/assets/photos/`-dakı ilkin vizuallar Unsplash-dan götürülmüş lisenziyalı stok fotolardır və yalnız dizayn təqdimatı üçündür. Sayt canlı istifadəyə keçməzdən əvvəl onları CA Wood-un öz məhsul fotoları ilə əvəz edin: hər məhsul üçün neytral fon üzərində 3/4 bucaqdan bir foto və ağac teksturasının bir makro detalı. Əlavə olaraq: servis arabası interyerdə, servis lövhəsi süfrədə, ümumi mağaza/kolleksiya görünüşü.
 
 ## Müştəridən dəqiqləşdiriləcək
 

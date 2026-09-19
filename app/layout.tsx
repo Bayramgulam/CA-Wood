@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'; import { Playfair_Display, Manrope } from 'next/font/google'; import './globals.css';
+import type { Metadata } from 'next'; import { Playfair_Display, Manrope } from 'next/font/google'; import './globals.css'; import './images.css';
 const serif=Playfair_Display({subsets:['latin','cyrillic'],variable:'--font-serif'}); const sans=Manrope({subsets:['latin','cyrillic'],variable:'--font-sans'});
 export const metadata: Metadata={metadataBase:new URL('https://cawood.az'),title:'CA Wood | Taxta Qablar Kolleksiyası',description:'CA Wood — taxta sofra və servis qabları. Sədərək, Bakı.',openGraph:{title:'CA Wood | Taxta Qablar Kolleksiyası',description:'Ağacdan sofra və servis qabları. İstehsalçıdan.',images:['/assets/logo.png']}};
 const localBusiness={"@context":"https://schema.org","@type":"Store",name:'CA Wood | Taxta Qablar Kolleksiyası',address:{"@type":"PostalAddress",streetAddress:'Sədərək TM Şirniyyat, 15-ci sıra, 53-cü mağaza',addressLocality:'Sədərək, Bakı',addressCountry:'AZ'},telephone:'070-833-24-33',openingHours:'Mo-Su 09:00-17:00'};
